@@ -1,5 +1,5 @@
 #opcao-bolos:checked ~ #menu-bebidas
-#opcao-bebidas:checked ~ #menu-bolo{
+#opcao-bebidas:checked ~ #menu-bolos{
     display: none;
 }
 
@@ -19,6 +19,7 @@ body{
 }
 
 label{
+    background: center top no-repeat;
     background-color: #563429;
     background-size: 4em;
     color: white;
@@ -36,19 +37,11 @@ label[for=opcao-bebidas]{
     background-image: url(imagens/icone-bebidas.svg);
 }
 
-input[type=radio] + label {
-    background-color: #E4876D;
-}
-
-input[type=radio]:checked + label {
-    background-color: #E4876D;
-}
-
 :checked + label{
     background-color:  #E4876D;
 }
 
-labe{
+label{
     width: 50%;
 
     position: fixed;
@@ -62,4 +55,14 @@ labe{
         right: 0;
     }
 
+input[type=radio] + label {
+    background-color: #E4876D;
+}
 
+input[type=radio]:checked + label {
+    background-color: #E4876D;
+}
+
+.menu {
+    margin-bottom: 100px;
+}
