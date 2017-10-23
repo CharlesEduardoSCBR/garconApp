@@ -14,6 +14,7 @@
     
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none" />
     
-    <platfor name="android" />
+    <platform name="android" />
 </widget>
